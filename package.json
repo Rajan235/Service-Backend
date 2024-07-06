@@ -1,0 +1,17 @@
+{
+  "name": "service_backend",
+  "version": "1.0.0",
+  "description": "my service website backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Rajan Bansal",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.2",
+    "prisma": "^5.16.1"
+  }
+}
